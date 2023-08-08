@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body class="container-fluid-sm body-color">
+  <nav class="navbar navbar-expand-sm navbar-dark">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand text-white text-capitalize"><h2>Eden's <span class="text-warning">perfumery</span></h2></a>
+
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynavbarcollapse"><span class="navbar-toggler-icon text-secondary"></span></button>
+
+      <div class="collapse navbar-collapse" id="mynavbarcollapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="index.html" class="active nav-link text-capitalize fw-bold">home</a>
+          </li>
+          <li class="nav-item">
+            <a href="products.html" class="nav-link text-capitalize fw-bold">products</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-capitalize fw-bold">about</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-capitalize fw-bold">contact</a>
+          </li>
+        </ul>
+      <!-- signup container -->
+      <div class="container-fluid-sm" id="sign-up-container">
+        <div class="container">
+          <button type="button" class="btn btn-outline-success text-white" data-bs-toggle="modal" data-bs-target="#myModal">
+            SignIn
+          </button>
+        </div>
+        
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+        
+              <!-- Modal Header -->
+              <div class="modal-header bg-dark">
+                <h4 class="modal-title text-uppercase text-center text-warning">great to have you back!</h4>
+                <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"></button>
+              </div>
+        
+              <!-- Modal body -->
+              <div class="modal-body">
+                <div class="list-group">
+                  <a href="https://www.facebook.com" target="_blank" class="list-group-item list-group-item-action d-flex align-item-center justify-content-evenly"><i class="bi bi-facebook text-primary"></i> Countinue with fackebook</a>
+                  <a href="https://www.google.com" target="_blank" class="list-group-item list-group-item-action d-flex align-item-center justify-content-evenly"><i class="bi bi-google text-success"></i> Continue with google</a>
+                </div> 
+              
+                <p class="text-center my-3">or</p>
+
+                <div class="container">
+                  <form action="/action_page.php" class="was-validated">
+                    <div class="mb-3">
+                      <label for="emailAdress">Email:</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter email" name="emailAdress" required>
+                      <div class="valid-feedback"></div>
+                      <div class="invalid-feedback">emailAdress is required</div>
+                    </div>
+                    
+                    <div class="mb-3">
+                      <label for="password">Password:</label>
+                      <input type="password" class="form-control" id="password" placeholder="Enter Password" name="Password" required>
+                      <div class="valid-feedback"></div>
+                      <div class="invalid-feedback">password is required</div>
+                    </div>
+
+                    <button type="submit" class="btn btn-success w-50 text-capitalize d-block mx-auto mb-3">login account</button>
+                    <hr>
+                    <div class="policy mt-3">
+                      <p>Envato collects and uses personal data in accordance with our Privacy Policy. By creating an account, you agree to our Terms & Conditions.</p>
+                    </div>
+                  </form>
+                </div>
+                
+              </div>
+        
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <!-- closed -->
+    </div>
+  </nav>
+ <!-- navbar closed -->
+
+ <!-- alert -->
+  <div class="container-fluid pb-5"  id="general-container">
+    <div class="container-sm alert-container">
+      <div class="row mt-5">
+        <div class="col-sm-12 alert alert-container1  text-white alert-dismissible animate__animated animate__pulse animate__delay-2s animate__infinite">
+          <button type="button" class="btn btn-close bg-white" data-bs-dismiss="alert"></button>
+          <img src="./img/1686120209519.jpg" class="img-fluid me-5 animate__animated animate__pulse animate__delay-2s animate__infinite" alt="">
+          <div class="col-sm alert-text">
+            <p>Are you looking for a unique style of perfume? Wonder no more, Because we have something interesting for you.</p>
+            <p class="animate__animated animate__delay-2s animate__infinite animate__bounceIn animate__slow text-warning text-center"><strong class="fs-3 text-capitalize">scents of eden! </strong>best undiluted unisex oil perfume</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- closed -->
+
+    <!-- newsfeed page -->
+    <div class="container-sm mt-5 newsfeed-container bg-light">
+      <h1 class="lead">news feed</h1>
+      <div class="row d-flex justify-content-between align-item-center">
+        <div class="col-md-6  col-lg-7 newsfeed-img">
+          <img src="./img/landing page wallpaper.jpg" alt="landing page" title="stella's fragrances" class="img-fluid" loading="lazy">
+        </div>
+        <div class="col-md-6 col-lg-5 newsfeed-text">
+          <h2>lorem</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quod dolor earum animi quisquam quae? Maiores corporis saepe dolorem tempore accusamus rerum laudantium dicta numquam dolore. Iste provident nam impedit, quaerat, quibusdam autem quas id fuga voluptatem ab repellat. Odio tenetur rerum asperiores reiciendis aperiam qui quas dolor consectetur eos?</p>
+        </div>
+      </div>
+    </div>
+    <!-- newsfeed-closed -->
+    <!-- alert -->
+    <div class="container-sm alert-container mt-5">
+      <div class="row">
+        <div class="col-sm-12 alert alert-container1  text-white alert-dismissible animate__animated animate__pulse animate__delay-5s animate__slow animate__infinite">
+          <button type="button" class="btn btn-close bg-white" data-bs-dismiss="alert"></button>
+          <img src="./img/1686120209519.jpg" class="img-fluid me-5 animate__animated animate__zoomOutRight animate__flipInX animate__delay-2s animate__slow animate__infinite" alt="">
+          <div class="col-sm alert-text">
+            <p>Are you looking for a unique style of perfume? Wonder no more, Because we have something interesting for you.</p>
+            <p class="animate__animated animate__delay-2s animate__infinite animate__zoomInUp animate__slow text-warning text-center"><strong class="fs-3 text-capitalize">scents of eden! </strong>best undiluted unisex oil perfume</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- alert-closed -->
+    <!-- alert -->
+    <div class="container-sm alert-container mt-3">
+      <div class="row">
+        <div class="col-sm alert alert-container1 alert-container3  text-white alert-dismissible animate__animated animate__pulse animate__delay-2s animate__slow animate__infinite">
+          <button type="button" class="btn btn-close bg-white" data-bs-dismiss="alert"></button>
+          <img src="./img/1686120209519.jpg" class="img-fluid me-5 animate__animated animate__zoomInRight animate__slow animate__delay-2s animate__infinite" alt="">
+          <div class="col-sm alert-text">
+            <p>Are you looking for a unique style of perfume? Wonder no more, Because we have something interesting for you.</p>
+            <p class="text-warning text-center"><strong class="fs-3 text-capitalize">scents of eden! </strong>best undiluted unisex oil perfume</p>
+          </div>
+          <img src="./img/depositphotos_58577969-stock-photo-woman-beauty.webp" class="img-fluid me-5 animate__animated animate__zoomInRight animate__delay-2s animate__infinite animate__slow" alt="Scents of edens">
+        </div>
+      </div>
+    </div>
+    <!-- alert-closed -->
+  </div>
+ <!-- footer -->
+
+ <div class="container-fluid-sm footer-container">
+  <div class="row mt-5">
+    <div class="col-sm-12 mt-5 footer-container-row">
+         <a href="https://www.facebook.com/stella.adejo?mibextid=ZbWkwL" target="_blank"><i class="bi icon bi-facebook"></i></a>
+         <a href="https://wa.me/message/E72ZXMEXQSBHF1" target="_blank"><i class="bi icon bi-whatsapp"></i></a>
+         <a href="https://instagram.com/sweetscents_stella?igshid=ZGUzMZM3NWJiOQ=="><i class="bi icon bi-instagram"></i></a>
+         <h4>stella's fragrance oil perfume</h4>
+         <h4><a href="#">terms of use, privacy policy</a></h2>
+         <h4><a href="#">visit stellaoilperfume&copy;www.stella'soilperfume@gmail.com</a></h3>
+    </div>
+  </div>
+ </div>
+ <!-- closed -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!-- newsfeed page2 -->
+      <div class="container-sm mt-3 p-3 newsfeed-container newsfeed-container2 bg-light">
+        <div class="row d-flex gy-3 justify-content-between align-item-center">
+          <div class="col-md-12 d-block m-auto  col-lg-6 newsfeed-img newsfeed-img1 newsfeed-img2 newsfeed-img3">
+            <img src="./img/IMG-20230607-WA0028.jpg" alt="scents of edens perfumery" title="stella's fragrances" class="img-fluid" loading="lazy">
+          </div>
+          <div class="col-md-6 col-lg-6 newsfeed-img newsfeed-img3">
+            <img src="./img/IMG-20230607-WA0029.jpg" alt="scents of edens perfumery" title="stella's fragrances" class="img-fluid" loading="lazy">
+          </div>
+        </div>
+      </div>
+      <!-- newsfeed-closed -->
+
+      <!-- newsfeed page3 -->
+      <div class="container-sm mt-3 p-3 newsfeed-container newsfeed-container2 bg-light">
+        <div class="row d-flex gy-3 justify-content-between align-item-center">
+          <div class="col-md-6  col-lg-6 newsfeed-img newsfeed-img1 newsfeed-img2 newsfeed-img3">
+            <img src="./img/1686120216315.jpg" alt="scents of edens perfumery" title="stella's fragrances" class="img-fluid" loading="lazy">
+          </div>
+          <div class="col-md-6 col-lg-6 newsfeed-img newsfeed-img3">
+            <img src="./img/1686120201405.jpg" alt="scents of edens perfumery" title="stella's fragrances" class="img-fluid" loading="lazy">
+          </div>
+        </div>
+      </div>
+      <!-- newsfeed-closed -->
+
+      <!-- newsfeed page4 -->
+      <div class="container-sm mt-3 p-3 newsfeed-container newsfeed-container2 bg-light">
+        <div class="row d-flex gy-3 justify-content-between align-item-center">
+          <div class="col-md  col-lg newsfeed-img newsfeed-img1 newsfeed-img2 newsfeed-img3">
+            <img src="./img/IMG-20230701-WA0063.jpg" alt="scents of edens perfumery" title="stella's fragrances" class="img-fluid d-block w-75 m-auto" loading="lazy">
+          </div>
+        </div>
+      </div>
+      <!-- newsfeed-closed -->
+
+
+      alert("This item already exist in the Cart!");
