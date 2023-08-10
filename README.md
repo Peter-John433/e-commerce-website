@@ -7,13 +7,13 @@ E-commerce-website created by me,well responsive on all device screens and highl
 
 It’s clear that the growth in ecommerce brings many benefits for a business’s bottom line, but there are more reasons to create an ecommerce business. An online presence gives businesses ample opportunities to create connections that lead to growth.
 
-1. New market acquisitions.
+1. # New market acquisitions.
    For many companies, especially small businesses and startups, it can be hard to reach customers in new markets with just a storefront. An ecommerce site enables you to reach new customers online that you couldn’t reach with only brick-and-mortar sales.
    
-2. Create unique shopping experiences.
+2. # Create unique shopping experiences.
    Online businesses are also able to directly impact the customer journey by creating a unique shopping experience through videos, stories, and personalized services. These shopping encounters don’t need to end at the checkout either, as you can reach customers via email marketing or social media. These extraordinary experiences have a way of convincing customers that online shopping offers inclusive opportunities that a brick-and-mortar store typically doesn’t provide.
    
-3. Strengthen your brand.
+3. # Strengthen your brand.
    If you sell on an online marketplace, like eBay or Amazon, your products are listed generically and often use the marketplace’s brandings. Some customers may not even realize they’re purchasing from you and consequently won’t learn about your brand. Building your own ecommerce site ensures control of how your products are presented. Your customers remember you, not the marketplace.
 
    # e-commerce selling statistics
