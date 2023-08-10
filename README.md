@@ -1,4 +1,4 @@
-# e-commerce-website
+# e-commerce-website (Scents of eden's perfumery website)
 Scents of eden's perfumery website created with HTML,CSS,BOOSTRAP5 and VANILLA JS, Highly responsive for all screen devices.
 
 E-commerce-website created by me,well responsive on all device screens and highly classic.This website is basically built for an online perfume sales with varieties of different fragrances that smells good on the skin.this website is built with the three basic frontend language HTML, CSS, and VANILLA JAVASCRIPT with css frameworks such as BOOSTRAP5 and css animate,also with the use of sweet-alert to style the popping up of message and notifications on the screen...
